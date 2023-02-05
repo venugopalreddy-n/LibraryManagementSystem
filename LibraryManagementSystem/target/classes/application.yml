@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url:jdbc:mysql://localhost:3306/jdbl?createDatabaseIfNotExist=true
+    username:root
+    password:venu@svce4642     
+  jpa:
+    hibernate.ddl-auto:create
+    show-sql:true
+server:
+  port:8080    
